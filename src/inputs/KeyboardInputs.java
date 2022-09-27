@@ -31,19 +31,19 @@ public class KeyboardInputs implements KeyListener{
 		switch(e.getKeyCode()) {
 		
 		case KeyEvent.VK_W:
-			System.out.println("its W");
+//			System.out.println("its W");
 			gamePanel.ChangeYDelta(-5);
 			break;
 		case KeyEvent.VK_A:
-			System.out.println("its A");
+//			System.out.println("its A");
 			gamePanel.ChangeXDelta(-5);
 			break;
 		case KeyEvent.VK_S:
-			System.out.println("its S");
+//			System.out.println("its S");
 			gamePanel.ChangeYDelta(5);
 			break;
 		case KeyEvent.VK_D:
-			System.out.println("its D");
+//			System.out.println("its D");
 			gamePanel.ChangeXDelta(5);
 			break;
 		}
