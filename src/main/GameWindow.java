@@ -22,6 +22,8 @@ public class GameWindow{
 		jFrame.setDefaultCloseOperation(jFrame.EXIT_ON_CLOSE);
 		/// adding gamepanel to the display window
 		jFrame.add(gamePanel);
+		/// spawn the window in the center of screen
+		jFrame.setLocationRelativeTo(null);
 		/// set visible of window or display the window
 		jFrame.setVisible(true);
 		

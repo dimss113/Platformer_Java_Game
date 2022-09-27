@@ -11,7 +11,9 @@ public class GameClass {
 		
 		// create gamewindow object
 		gamePanel = new GamePanel();
-		gameWindow = new GameWindow(gamePanel);		
+		gameWindow = new GameWindow(gamePanel);	
+		// needed for keylistener 
+		gamePanel.requestFocus();
 		
 	}
 }
